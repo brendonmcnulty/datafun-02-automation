@@ -73,16 +73,11 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     logger.info("FUNCTION: create_folders_for_range()")
     logger.info(f"PARAMETERS: start_year = {start_year}, end_year = {end_year}")
 
-    # TODO: Loop through the years from start_year to end_year (inclusive)
-    # TODO: For each year, create a folder using ROOT_DIR / str(year)
-    # TODO: Log a message each time a folder is created
-    # TODO: Use .mkdir(exist_ok=True) so the program doesn't crash if the folder already exists
+    for year in range(start_year, end_year + 1):
+        year_path = ROOT_DIR / str(year)
+        year_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {year_path}")
 
-    # Example starter structure:
-    # for year in range(start_year, end_year + 1):
-    #     year_path = ROOT_DIR / str(year)
-    #     year_path.mkdir(exist_ok=True)
-    #     logger.info(f"Created folder: {year_path}")
 
 
   
@@ -198,8 +193,7 @@ def main() -> None:
     logger.info("# Starting execution of main()")
     logger.info("#####################################\n")
 
-    # TODO: Change this to use your module and your get_byline() function instead
-    logger.info(f"Byline: {utils_case.get_byline()}")
+    logger.info(f"Byline: {utils_brendon.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
     create_folders_for_range(start_year=2020, end_year=2023)
