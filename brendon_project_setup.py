@@ -100,9 +100,10 @@ def create_folders_from_list(folder_list: list) -> None:
     logger.info("FUNCTION: create_folders_from_list()")
     logger.info(f"PARAMETER: folder_list = {folder_list}")
 
-    # TODO: Loop through the list of folder names
-    # TODO: For each name, create a folder using ROOT_DIR / name
-    # TODO: Log a message each time a folder is created
+    for name in folder_list:
+        path = ROOT_DIR / name
+        path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {path}")
 
     pass
 
