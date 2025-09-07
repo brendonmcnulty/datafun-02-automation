@@ -334,3 +334,203 @@ Standard Deviation:         0.16
 2025-09-07 18:26:10.968 | INFO     | __main__:main:224 - # Completed execution of main()
 2025-09-07 18:26:10 | INFO | __main__:225 | #####################################
 2025-09-07 18:26:10.968 | INFO     | __main__:main:225 - #####################################
+2025-09-07 18:29:04 | INFO | utils_brendon:48 | Logger loaded.
+2025-09-07 18:29:04 | INFO | __main__:37 | Logger loaded.
+2025-09-07 18:29:04.433 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-07 18:29:04 | INFO | __main__:202 | #####################################
+2025-09-07 18:29:04.433 | INFO     | __main__:main:202 - #####################################
+2025-09-07 18:29:04 | INFO | __main__:203 | # Starting execution of main()
+2025-09-07 18:29:04.433 | INFO     | __main__:main:203 - # Starting execution of main()
+2025-09-07 18:29:04 | INFO | __main__:204 | #####################################
+
+2025-09-07 18:29:04.433 | INFO     | __main__:main:204 - #####################################
+
+2025-09-07 18:29:04 | INFO | __main__:206 | Byline: 
+**********************************************************
+BAM Analytics — Project Header
+**********************************************************
+Author:                     Brendon McNulty
+Motto:                      Simple. Honest. Data.
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Hiring?:                    False
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Office Locations:           ['Cedar Rapids', 'Davenport', 'Des Moines', 'Cedar Falls', 'Iowa City']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+Standard Deviation:         0.16
+**********************************************************
+
+2025-09-07 18:29:04.433 | INFO     | __main__:main:206 - Byline: 
+**********************************************************
+BAM Analytics — Project Header
+**********************************************************
+Author:                     Brendon McNulty
+Motto:                      Simple. Honest. Data.
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Hiring?:                    False
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Office Locations:           ['Cedar Rapids', 'Davenport', 'Des Moines', 'Cedar Falls', 'Iowa City']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+Standard Deviation:         0.16
+**********************************************************
+
+2025-09-07 18:29:04 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-09-07 18:29:04 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-07 18:29:04 | INFO | __main__:79 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2020
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2020
+2025-09-07 18:29:04 | INFO | __main__:79 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2021
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2021
+2025-09-07 18:29:04 | INFO | __main__:79 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2022
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2022
+2025-09-07 18:29:04 | INFO | __main__:79 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2023
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2023
+2025-09-07 18:29:04 | INFO | __main__:100 | FUNCTION: create_folders_from_list()
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_from_list:100 - FUNCTION: create_folders_from_list()
+2025-09-07 18:29:04 | INFO | __main__:101 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-07 18:29:04.434 | INFO     | __main__:create_folders_from_list:101 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-07 18:29:04 | INFO | __main__:106 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-csv
+2025-09-07 18:29:04.435 | INFO     | __main__:create_folders_from_list:106 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-csv
+2025-09-07 18:29:04 | INFO | __main__:106 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-excel
+2025-09-07 18:29:04.435 | INFO     | __main__:create_folders_from_list:106 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-excel
+2025-09-07 18:29:04 | INFO | __main__:106 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-json
+2025-09-07 18:29:04.435 | INFO     | __main__:create_folders_from_list:106 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-json
+2025-09-07 18:29:04 | INFO | __main__:129 | FUNCTION: create_prefixed_folders()
+2025-09-07 18:29:04.435 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:129 - FUNCTION: create_prefixed_folders()
+2025-09-07 18:29:04 | INFO | __main__:130 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-07 18:29:04.435 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-07 18:29:04 | INFO | __main__:139 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-csv
+2025-09-07 18:29:04.435 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:139 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-csv
+2025-09-07 18:29:04 | INFO | __main__:139 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-excel
+2025-09-07 18:29:04.435 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:139 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-excel
+2025-09-07 18:29:04 | INFO | __main__:139 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-json
+2025-09-07 18:29:04.435 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:139 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-json
+2025-09-07 18:29:04 | INFO | __main__:157 | FUNCTION: create_folders_periodically()
+2025-09-07 18:29:04.435 | INFO     | __main__:create_folders_periodically:157 - FUNCTION: create_folders_periodically()
+2025-09-07 18:29:04 | INFO | __main__:158 | PARAMETER: duration_seconds = 5
+2025-09-07 18:29:04.436 | INFO     | __main__:create_folders_periodically:158 - PARAMETER: duration_seconds = 5
+2025-09-07 18:29:04 | INFO | __main__:165 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-1
+2025-09-07 18:29:04.436 | INFO     | __main__:create_folders_periodically:165 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-1
+2025-09-07 18:29:04 | INFO | __main__:167 | Waiting 5 seconds before next folder...
+2025-09-07 18:29:04.436 | INFO     | __main__:create_folders_periodically:167 - Waiting 5 seconds before next folder...
+2025-09-07 18:33:26 | INFO | utils_brendon:48 | Logger loaded.
+2025-09-07 18:33:26 | INFO | __main__:38 | Logger loaded.
+2025-09-07 18:33:26.756 | INFO     | __main__:<module>:38 - Logger loaded.
+2025-09-07 18:33:26 | INFO | __main__:203 | #####################################
+2025-09-07 18:33:26.756 | INFO     | __main__:main:203 - #####################################
+2025-09-07 18:33:26 | INFO | __main__:204 | # Starting execution of main()
+2025-09-07 18:33:26.757 | INFO     | __main__:main:204 - # Starting execution of main()
+2025-09-07 18:33:26 | INFO | __main__:205 | #####################################
+
+2025-09-07 18:33:26.757 | INFO     | __main__:main:205 - #####################################
+
+2025-09-07 18:33:26 | INFO | __main__:207 | Byline: 
+**********************************************************
+BAM Analytics — Project Header
+**********************************************************
+Author:                     Brendon McNulty
+Motto:                      Simple. Honest. Data.
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Hiring?:                    False
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Office Locations:           ['Cedar Rapids', 'Davenport', 'Des Moines', 'Cedar Falls', 'Iowa City']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+Standard Deviation:         0.16
+**********************************************************
+
+2025-09-07 18:33:26.757 | INFO     | __main__:main:207 - Byline: 
+**********************************************************
+BAM Analytics — Project Header
+**********************************************************
+Author:                     Brendon McNulty
+Motto:                      Simple. Honest. Data.
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Hiring?:                    False
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Office Locations:           ['Cedar Rapids', 'Davenport', 'Des Moines', 'Cedar Falls', 'Iowa City']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+Standard Deviation:         0.16
+**********************************************************
+
+2025-09-07 18:33:26 | INFO | __main__:74 | FUNCTION: create_folders_for_range()
+2025-09-07 18:33:26.757 | INFO     | __main__:create_folders_for_range:74 - FUNCTION: create_folders_for_range()
+2025-09-07 18:33:26 | INFO | __main__:75 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-07 18:33:26.757 | INFO     | __main__:create_folders_for_range:75 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-07 18:33:26 | INFO | __main__:80 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2020
+2025-09-07 18:33:26.757 | INFO     | __main__:create_folders_for_range:80 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2020
+2025-09-07 18:33:26 | INFO | __main__:80 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2021
+2025-09-07 18:33:26.757 | INFO     | __main__:create_folders_for_range:80 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2021
+2025-09-07 18:33:26 | INFO | __main__:80 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2022
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_for_range:80 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2022
+2025-09-07 18:33:26 | INFO | __main__:80 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2023
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_for_range:80 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\2023
+2025-09-07 18:33:26 | INFO | __main__:101 | FUNCTION: create_folders_from_list()
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_from_list:101 - FUNCTION: create_folders_from_list()
+2025-09-07 18:33:26 | INFO | __main__:102 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_from_list:102 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-07 18:33:26 | INFO | __main__:107 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-csv
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_from_list:107 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-csv
+2025-09-07 18:33:26 | INFO | __main__:107 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-excel
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_from_list:107 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-excel
+2025-09-07 18:33:26 | INFO | __main__:107 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-json
+2025-09-07 18:33:26.758 | INFO     | __main__:create_folders_from_list:107 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\data-json
+2025-09-07 18:33:26 | INFO | __main__:130 | FUNCTION: create_prefixed_folders()
+2025-09-07 18:33:26.758 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - FUNCTION: create_prefixed_folders()
+2025-09-07 18:33:26 | INFO | __main__:131 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-07 18:33:26.758 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:131 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-07 18:33:26 | INFO | __main__:140 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-csv
+2025-09-07 18:33:26.758 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:140 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-csv
+2025-09-07 18:33:26 | INFO | __main__:140 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-excel
+2025-09-07 18:33:26.759 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:140 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-excel
+2025-09-07 18:33:26 | INFO | __main__:140 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-json
+2025-09-07 18:33:26.759 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:140 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\output-json
+2025-09-07 18:33:26 | INFO | __main__:158 | FUNCTION: create_folders_periodically()
+2025-09-07 18:33:26.759 | INFO     | __main__:create_folders_periodically:158 - FUNCTION: create_folders_periodically()
+2025-09-07 18:33:26 | INFO | __main__:159 | PARAMETER: duration_seconds = 5
+2025-09-07 18:33:26.759 | INFO     | __main__:create_folders_periodically:159 - PARAMETER: duration_seconds = 5
+2025-09-07 18:33:26 | INFO | __main__:166 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-1
+2025-09-07 18:33:26.759 | INFO     | __main__:create_folders_periodically:166 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-1
+2025-09-07 18:33:26 | INFO | __main__:168 | Waiting 5 seconds before next folder...
+2025-09-07 18:33:26.759 | INFO     | __main__:create_folders_periodically:168 - Waiting 5 seconds before next folder...
+2025-09-07 18:33:31 | INFO | __main__:166 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-2
+2025-09-07 18:33:31.761 | INFO     | __main__:create_folders_periodically:166 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-2
+2025-09-07 18:33:31 | INFO | __main__:168 | Waiting 5 seconds before next folder...
+2025-09-07 18:33:31.763 | INFO     | __main__:create_folders_periodically:168 - Waiting 5 seconds before next folder...
+2025-09-07 18:33:36 | INFO | __main__:166 | Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-3
+2025-09-07 18:33:36.765 | INFO     | __main__:create_folders_periodically:166 - Created folder: C:\Data Analytics Fundamentals\datafun-02-automation\periodic-3
+2025-09-07 18:33:36 | INFO | __main__:191 | FUNCTION: create_standardized_folders()
+2025-09-07 18:33:36.765 | INFO     | __main__:create_standardized_folders:191 - FUNCTION: create_standardized_folders()
+2025-09-07 18:33:36 | INFO | __main__:192 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-07 18:33:36.766 | INFO     | __main__:create_standardized_folders:192 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-07 18:33:36 | INFO | __main__:228 | 
+#####################################
+2025-09-07 18:33:36.767 | INFO     | __main__:main:228 - 
+#####################################
+2025-09-07 18:33:36 | INFO | __main__:229 | # Completed execution of main()
+2025-09-07 18:33:36.768 | INFO     | __main__:main:229 - # Completed execution of main()
+2025-09-07 18:33:36 | INFO | __main__:230 | #####################################
+2025-09-07 18:33:36.768 | INFO     | __main__:main:230 - #####################################

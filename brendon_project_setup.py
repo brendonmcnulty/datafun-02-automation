@@ -17,7 +17,8 @@ Author: Brendon McNulty
 
 # Import from the Python Standard library
 import pathlib
-import sys      
+import sys     
+import time 
 
 # Import packages from requirements.txt
 import loguru   
@@ -139,7 +140,6 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
         logger.info(f"Created folder: {p}")
 
 
-  
 
 #####################################
 # Define Function 4. While Loop: 
@@ -158,12 +158,17 @@ def create_folders_periodically(duration_seconds: int) -> None:
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
     
-    # TODO: Import time module from the Standard Library at the top if needed
-    # TODO: Use a counter or a list to control how many folders to create
-    # TODO: Wait between folder creations using time.sleep()
-    # TODO: Log each wait and creation
+    count_to_create = 3
+    for i in range(1, count_to_create + 1):
+        folder_name = f"periodic-{i}"
+        path = ROOT_DIR / folder_name
+        path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {path}")
+        if i < count_to_create:
+            logger.info(f"Waiting {duration_seconds} seconds before next folder...")
+            time.sleep(duration_seconds)
     
-    pass
+    
 
 
 #####################################
