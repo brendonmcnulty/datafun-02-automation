@@ -105,7 +105,6 @@ def create_folders_from_list(folder_list: list) -> None:
         path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {path}")
 
-    pass
 
 
   
@@ -130,9 +129,15 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     logger.info("FUNCTION: create_prefixed_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, prefix = {prefix}")
 
-    # TODO: Implement this function professionally and remove the temporary pass.
-    # TODO: Use a list comprehension to create the folder names.
-    pass
+        # list comprehension to build new names
+    prefixed_names = [f"{prefix}{name}" for name in folder_list]
+
+    # create a folder for each new name
+    for name in prefixed_names:
+        p = ROOT_DIR / name
+        p.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {p}")
+
 
   
 
