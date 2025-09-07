@@ -158,7 +158,7 @@ def create_folders_periodically(duration_seconds: int) -> None:
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
     
-    count_to_create = 3
+    count_to_create = 4
     for i in range(1, count_to_create + 1):
         folder_name = f"periodic-{i}"
         path = ROOT_DIR / folder_name
